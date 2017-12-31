@@ -3,6 +3,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+colorscheme jellybeans
+
 " incsearch.vim
 map /  <Plug>(incsearch-forward)
 map ?  <Plug>(incsearch-backward)
