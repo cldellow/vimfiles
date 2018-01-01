@@ -67,3 +67,6 @@
 [submodule "bundle/fzf.vim"]
 	path = bundle/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule "bundle/vim-cljfmt"]
+	path = bundle/vim-cljfmt
+	url = https://github.com/venantius/vim-cljfmt.git

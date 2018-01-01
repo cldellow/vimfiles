@@ -16,3 +16,9 @@ export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
 alias mktags='ctags $(ag . -i --nocolor --nogroup --hidden -g ".scala$|.clj$|.java$|.py$")'
 ```
 
+Tweak `~/.lein/profiles.clj`:
+
+```
+{:user {
+ :dependencies [[cljfmt "0.5.7"]]}}
+```
