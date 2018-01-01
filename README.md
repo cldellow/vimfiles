@@ -12,5 +12,6 @@ Tweak `~/.bashrc`:
 ```
 export EDITOR=vim
 export TERM=xterm-256color
+alias mktags='ctags $(ag . -i --nocolor --nogroup --hidden -g ".scala$|.clj$|.java$|.py$")'
 ```
 
