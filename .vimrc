@@ -19,7 +19,7 @@ nmap <Leader>ve :e $HOME/.vim/.vimrc<CR>
 nmap <Leader>vs :source $HOME/.vim/.vimrc<CR>
 nmap <Leader>q :bd<CR>
 nmap <Leader>w :wa<CR>
-
+nmap <Leader>t :Require!<CR>:RunTests<CR>
 nmap <Leader>c :cd %:p:h<CR>:pwd<CR>
 
 " vim-gitgutter
