@@ -21,6 +21,10 @@ nmap <Leader>q :bd<CR>
 nmap <Leader>w :wa<CR>
 
 nmap <Leader>c :cd %:p:h<CR>:pwd<CR>
+
+" vim-gitgutter
+set updatetime=250
+
 " incsearch.vim
 map /  <Plug>(incsearch-forward)
 map ?  <Plug>(incsearch-backward)
