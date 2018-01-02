@@ -4,7 +4,9 @@ syntax on
 filetype plugin indent on
 
 colorscheme jellybeans
+set hidden
 set number
+set ruler
 set list listchars=tab:»·,trail:·
 
 map <space> <C-f>
@@ -21,6 +23,8 @@ nmap <Leader>q :bd<CR>
 nmap <Leader>w :wa<CR>
 nmap <Leader>t :Require!<CR>:RunTests<CR>
 nmap <Leader>c :cd %:p:h<CR>:pwd<CR>
+
+let g:sql_type_default = 'pgsql'
 
 " vim-gitgutter
 set updatetime=250
