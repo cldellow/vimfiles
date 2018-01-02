@@ -10,6 +10,8 @@ set number                        " Show line numbers in gutter
 set mouse=a                       " Do sane things with the mouse when selecting text, scroll-wheeling.
 set ruler                         " Show line, column in lower right status.
 set list listchars=tab:»·,trail:· " Death to trailing whitespace.
+set ignorecase                    " Ignore case when searching
+set smartcase                     " ...unless the human typed a capital.
 
 map <space> <C-f>
 map <backspace> <C-b>
