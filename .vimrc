@@ -1,13 +1,15 @@
+" automatic plugin loading
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colorscheme jellybeans
-set hidden
-set number
-set ruler
-set list listchars=tab:»·,trail:·
+colorscheme jellybeans            " Works well with 256-color terminals.
+set hidden                        " Permit switching from a buffer with unsaved changes.
+set number                        " Show line numbers in gutter
+set mouse=a                       " Do sane things with the mouse when selecting text, scroll-wheeling.
+set ruler                         " Show line, column in lower right status.
+set list listchars=tab:»·,trail:· " Death to trailing whitespace.
 
 map <space> <C-f>
 map <backspace> <C-b>
