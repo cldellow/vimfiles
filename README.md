@@ -21,6 +21,6 @@ alias mktags='ctags $(ag . -i --nocolor --nogroup --hidden -g ".scala$|.clj$|.ja
 Tweak `~/.lein/profiles.clj`:
 
 ```
-{:user {
- :dependencies [[cljfmt "0.5.7"]]}}
+{:user {:dependencies [[cljfmt "0.5.7"]]
+        :plugins [[cider/cider-nrepl "0.16.0"]}}
 ```
