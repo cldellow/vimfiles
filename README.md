@@ -5,7 +5,8 @@ On a clean machine:
 ```
 git clone git@github.com:cldellow/vimfiles.git
 ln -s vimfiles .vim
-curl https://gist.githubusercontent.com/pangloss/02bc52b5da7f05ad66e7/raw/e50dbc0133a86178e13f6853fa0918fae8681ca0/.ctags > ~/.ctags
+ln -s vimfiles/.vimrc .vimrc
+cp vimfiles/.ctags ~~/.ctags
 ```
 
 Tweak `~/.bashrc`:
