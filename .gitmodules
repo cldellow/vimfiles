@@ -70,3 +70,9 @@
 [submodule "bundle/vim-cljfmt"]
 	path = bundle/vim-cljfmt
 	url = https://github.com/venantius/vim-cljfmt.git
+[submodule "bundle/vim-rhubarb"]
+	path = bundle/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git
+[submodule "bundle/xml.vim"]
+	path = bundle/xml.vim
+	url = https://github.com/othree/xml.vim.git
