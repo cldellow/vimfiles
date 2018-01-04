@@ -21,6 +21,8 @@ map _ <C-w>W
 let mapleader = ","
 let nmapleader = ","
 
+nnoremap <cr> @q
+
 nmap <Leader>ve :e $HOME/.vim/.vimrc<CR>
 nmap <Leader>vs :source $HOME/.vim/.vimrc<CR>
 nmap <Leader>q :bd<CR>
@@ -48,6 +50,7 @@ map g* <Plug>(incsearch-nohl-g*)
 map g# <Plug>(incsearch-nohl-g#)
 
 " fzf.vim
+nmap ;a :Ag 
 nmap ;l :Lines<CR>
 nmap ;b :Buffers<CR>
 nmap ;t :Tags<CR>
