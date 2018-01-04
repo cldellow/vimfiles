@@ -23,6 +23,9 @@ let nmapleader = ","
 
 nnoremap <cr> @q
 
+noremap  <buffer> <silent> k gk
+noremap  <buffer> <silent> j gj
+
 nmap <Leader>ve :e $HOME/.vim/.vimrc<CR>
 nmap <Leader>vs :source $HOME/.vim/.vimrc<CR>
 nmap <Leader>q :bd<CR>
