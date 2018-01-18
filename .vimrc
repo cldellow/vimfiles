@@ -1,6 +1,7 @@
 " automatic plugin loading
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
+
 syntax on
 filetype plugin indent on
 
@@ -35,6 +36,9 @@ nmap <Leader>c :cd %:p:h<CR>:pwd<CR>
 
 let g:sql_type_default = 'pgsql'
 
+" vim-rooter
+let g:rooter_targets = 'neverrunvimrooterautomatically'
+
 " vim-gitgutter
 set updatetime=250
 
@@ -53,7 +57,7 @@ map g* <Plug>(incsearch-nohl-g*)
 map g# <Plug>(incsearch-nohl-g#)
 
 " fzf.vim
-nmap ;a :Ag 
+nmap ;a :Rooter<CR>:Ag 
 nmap ;l :Lines<CR>
 nmap ;b :Buffers<CR>
 nmap ;t :Tags<CR>
