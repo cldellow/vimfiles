@@ -15,6 +15,7 @@ Tweak `~/.bashrc`:
 export EDITOR=vim
 export TERM=xterm-256color
 export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
+#export FZF_DEFAULT_COMMAND=rg --files --no-ignore --hidden --follow --glob "!.git/*"'
 alias mktags='ctags $(ag . -i --nocolor --nogroup --hidden -g ".scala$|.clj$|.java$|.py$|.cljs$")'
 ```
 
