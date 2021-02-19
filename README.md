@@ -3,7 +3,7 @@
 On a clean machine:
 
 ```
-git clone git@github.com:cldellow/vimfiles.git
+git clone --recurse-submodules -j8 git@github.com:cldellow/vimfiles.git
 ln -s vimfiles .vim
 ln -s vimfiles/.vimrc .vimrc
 cp vimfiles/.ctags ~~/.ctags
