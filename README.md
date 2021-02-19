@@ -3,6 +3,7 @@
 On a clean machine:
 
 ```
+sudo apt install fzf
 git clone --recurse-submodules -j8 git@github.com:cldellow/vimfiles.git
 ln -s vimfiles .vim
 ln -s vimfiles/.vimrc .vimrc
